@@ -1,0 +1,114 @@
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 96.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #ffc800cc,#ff2300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content .container .card-body{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+#content .container .card-body .card-image{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 45px;
+    right: 50px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    border-radius: 15px;
+}
+
+#content .container .card-body .card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+#content .container .card-body .card-image .image-color{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to bottom right, #ff5e00,#ff2300);
+    opacity: 0.8;
+    border-radius: inherit;
+}
+
+#content .container .card-body .card-content{
+    padding: 75px 30px 75px 0;
+}
+
+#content .container .card-body .card-content .text{
+    color: #918c8c;
+    font-weight: 550;
+}
+
+#content .container .card-body .card-content button{
+    border: none;
+    background: none;
+    padding: 11px 25px;
+    background-image: linear-gradient(to bottom right, #ff8d00cc,#ff2300);
+    border-radius: 18px;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#content .container .card-body .card-content button:hover{
+    width: 135px;
+    height: 38px;
+    background-image: linear-gradient(to bottom right, #e3d8d8cc,#0018c3);
+}
+
+#content .container .card-body .card-image .image-color:hover{
+   opacity: 0;
+}
+
